@@ -1,5 +1,7 @@
 # CTCI
 
+## Big O
+
 1. What is its runtime?
 
 ```
@@ -143,3 +145,29 @@ int intersection(int[] a, int[] b) {
   <summary>Answer</summary>
   O(blogb) + O(alogb)
 </details>
+
+## Technical questions
+
+For each of this topics, make sure you understand how to use and implement them and, where applicable, the space and time complexity.
+
+Data structures:
+* Linked lists
+* Trees, Tries, & Graphs
+* Stacks & Queues
+* Heaps
+* Vectors / ArrayLists
+* Hash Tables
+
+Algorithms:
+* [Breadth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/breadth-first-search)
+* [Depth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/depth-first-search)
+* Binary Search
+* [Merge Sort](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/sort/merge)
+* Quick Sort
+
+Concepts:
+* Bit Manipulation
+* Memory (Stack vs Heap)
+* Recursion
+* Dynamic Programming
+* Big O Time & Space
