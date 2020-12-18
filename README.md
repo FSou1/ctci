@@ -153,7 +153,7 @@ For each of this topics, make sure you understand how to use and implement them 
 Data structures:
 * Linked lists
 * Trees, Tries, & Graphs
-* Stacks & Queues
+* [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
 * Heaps
 * Vectors / ArrayLists
 * Hash Tables
