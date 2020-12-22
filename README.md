@@ -152,7 +152,7 @@ For each of this topics, make sure you understand how to use and implement them 
 
 Data structures:
 * Linked lists
-* Trees, Tries, & Graphs
+* Trees, Tries, & [Graphs](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/graph)
 * [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
 * Heaps
 * Vectors / ArrayLists
@@ -161,7 +161,7 @@ Data structures:
 Algorithms:
 * [Breadth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/breadth-first-search)
 * [Depth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/depth-first-search)
-* Binary Search
+* [Binary Search](https://github.com/FSou1/typescript-algorithms/tree/master/src/algorithms/search/binary)
 * [Merge Sort](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/sort/merge)
 * Quick Sort
 
