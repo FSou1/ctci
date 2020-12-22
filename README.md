@@ -151,7 +151,7 @@ int intersection(int[] a, int[] b) {
 For each of this topics, make sure you understand how to use and implement them and, where applicable, the space and time complexity.
 
 Data structures:
-* Linked lists
+* [Linked lists](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/linked-list)
 * Trees, Tries, & [Graphs](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/graph)
 * [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
 * Heaps
