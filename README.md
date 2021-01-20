@@ -156,7 +156,7 @@ Data structures:
 * [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
 * Heaps
 * [Vectors](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/vector) / ArrayLists
-* Hash Tables
+* [Hash Tables](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/hash-table)
 
 Algorithms:
 * [Breadth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/breadth-first-search)
