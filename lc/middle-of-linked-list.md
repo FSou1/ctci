@@ -12,22 +12,22 @@ Explanation: The middle node of the list is node 3.
 
 ## Simple solution
 
-`O(N)` and `O(N)` to hold an array of nodes, then `return A[t / 2]`, where `t` is the lenght of the list.
+`O(N)` and `O(N)` to hold an array of nodes, then `return A[t / 2]`, where `t` is the length of the list.
 
 ## Fast and slow pointer
 
 A `slow` pointer traverses slow, while a `fast` pointer traverses twice as fast. When `fast` reaches the end of the list, `slow` must be in the middle:
 
 ```javascript
-var middleNode = function(head) {
-    let fast = head,
-        slow = head;
-    
-    while(fast && fast.next) {
-        fast = fast.next.next;
-        slow = slow.next;
-    }
-    
-    return slow;
+var middleNode = function (head) {
+  let fast = head,
+    slow = head;
+
+  while (fast && fast.next) {
+    fast = fast.next.next;
+    slow = slow.next;
+  }
+
+  return slow;
 };
 ```
