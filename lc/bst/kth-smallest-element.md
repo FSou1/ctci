@@ -13,6 +13,8 @@ Output: 3
 
 The idea is to build an inorder traversal of BST which is an array sorted in the ascending order. Now the answer is the k - 1th element of this array.
 
+![alt text](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solutions/284145/Figures/230/inorder.png)
+
 ```js
 /**
  * @param {TreeNode} root
