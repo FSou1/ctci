@@ -1,5 +1,48 @@
 # CTCI
 
+## Preparation map
+
+3-12 Months
+
+- **You are here**
+- Read intro sections of CtCI
+- Create draft of resume and send it out for a resume review
+- Make target list of preferred companies
+- Implement data structures and algorithms from scratch
+
+1-3 Months
+
+- Do several mock interviews
+
+4 weeks
+
+- Create interview prep grid (page 32)
+- Review/update resume
+- Begin applying to companies
+- Do another mock interview
+- Continue to practice questions, writing code on paper
+
+1 week
+
+- Phone interview
+- Do a final mock interview
+- Rehearse stories from the interview prep grid (page 32)
+- Re-read algorithm approaches (page 67)
+- Re-read Big O section (page 38)
+- Continue to practice questions, writing code on paper
+
+Day of
+
+- Be on time
+- Be confident
+- Talk out loud, show how you think
+
+After
+
+- Write thank you note to recruiter
+- If you haven't heard from recruiter, check in about one week
+- If no offer, ask when you can re-apply
+
 ## Big O
 
 1. What is its runtime?
@@ -130,13 +173,13 @@ int sumDigits(int n) {
 int intersection(int[] a, int[] b) {
   mergesort(b);
   int intersect = 0;
-  
+
   for(int x : a) {
     if(binarySearch(b, x) >= 0) {
       intersect++;
     }
   }
-  
+
   return intersect;
 }
 ```
@@ -151,23 +194,26 @@ int intersection(int[] a, int[] b) {
 For each of this topics, make sure you understand how to use and implement them and, where applicable, the space and time complexity.
 
 Data structures:
-* [Linked lists](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/linked-list)
-* Trees, Tries, & [Graphs](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/graph)
-* [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
-* Heaps
-* [Vectors](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/vector) / ArrayLists
-* [Hash Tables](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/hash-table)
+
+- [Linked lists](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/linked-list)
+- Trees, Tries, & [Graphs](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/graph)
+- [Stacks](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/stack) & [Queues](https://github.com/FSou1/typescript-algorithms/blob/master/src/data-structures/queue)
+- Heaps
+- [Vectors](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/vector) / ArrayLists
+- [Hash Tables](https://github.com/FSou1/typescript-algorithms/tree/master/src/data-structures/hash-table)
 
 Algorithms:
-* [Breadth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/breadth-first-search)
-* [Depth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/depth-first-search)
-* [Binary Search](https://github.com/FSou1/typescript-algorithms/tree/master/src/algorithms/search/binary)
-* [Merge Sort](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/sort/merge)
-* Quick Sort
+
+- [Breadth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/breadth-first-search)
+- [Depth-First Search](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/graph/depth-first-search)
+- [Binary Search](https://github.com/FSou1/typescript-algorithms/tree/master/src/algorithms/search/binary)
+- [Merge Sort](https://github.com/FSou1/typescript-algorithms/blob/master/src/algorithms/sort/merge)
+- Quick Sort
 
 Concepts:
-* Bit Manipulation
-* Memory (Stack vs Heap)
-* Recursion
-* Dynamic Programming
-* Big O Time & Space
+
+- Bit Manipulation
+- Memory (Stack vs Heap)
+- Recursion
+- Dynamic Programming
+- Big O Time & Space
