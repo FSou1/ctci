@@ -23,14 +23,11 @@ var solution = function (knows) {
       if (knows(potential_celebrity, next)) {
         potential_celebrity = next;
       }
-      next += 1;
-    } while (next < n);
+    } while (next++ < n);
 
     for (let i = 0; i < n; i++) {
-      if (!knows(i, potential_celebrity)) {
-        return -1;
-      }
-      if (i != potential_celebrity && knows(potential_celebrity, i)) {
+      if (i === potential_celebrity) continue;
+      if (!knows(i, potential_celebrity) || knows(potential_celebrity, i)) {
         return -1;
       }
     }
