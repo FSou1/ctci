@@ -12,6 +12,8 @@ Explanation: 12 = 4 + 4 + 4.
 
 ## Solution
 
+![](https://leetcode.com/problems/perfect-squares/Figures/279/279_greedy_bfs_edited.png)
+
 ```js
 var numSquares = function (n) {
   let squares = getSquares(n);
