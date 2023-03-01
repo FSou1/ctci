@@ -7,8 +7,10 @@
 ## Array to hashset by count
 
 ```javascript
-arr.reduce((acc, cur) => {
-  acc[cur] = (acc[cur] || 0) + 1;
-  return acc;
-}, {});
+function groupByCount(arr) {
+  return arr.reduce((acc, cur) => {
+    acc[cur] = (acc[cur] || 0) + 1;
+    return acc;
+  }, {});
+}
 ```
