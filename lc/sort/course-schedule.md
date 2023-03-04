@@ -41,3 +41,5 @@ var findOrder = function (numCourses, prerequisites) {
   return numCourses === 0 ? res : [];
 };
 ```
+
+Complexity O(V+E) and O(V+E), where V is the number of verticies and E is the number of edges
