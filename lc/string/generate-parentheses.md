@@ -37,3 +37,7 @@ function getNext(currentString, open, close, hasOpened, result) {
   }
 }
 ```
+
+Complexity: O(4^n / sqrt(n))
+
+![](https://media0.giphy.com/media/j0gQA2VD38NKc9rc8y/giphy.gif)
