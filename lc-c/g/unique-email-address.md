@@ -46,4 +46,6 @@ var numUniqueEmails = function (emails) {
 }
 ```
 
+Complexity O(N * M) and O(N * M)
+
 https://leetcode.com/problems/unique-email-addresses
